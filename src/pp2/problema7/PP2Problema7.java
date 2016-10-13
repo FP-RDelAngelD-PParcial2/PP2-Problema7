@@ -25,7 +25,7 @@ public class PP2Problema7 {
         return miDato;
     }
     public static double convertirCantidad(){ 
-        double m = solicitarDatos("kilometros por hora");//Se solicitan los kilometros por hora
+        double m = solicitarDatos("kilometros por hora ");//Se solicitan los kilometros por hora
         return (m*1000)/3600; //Los metros por 1000 entre 3600
     }
     public static void muestraResultado(double d){
